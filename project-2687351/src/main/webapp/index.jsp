@@ -11,7 +11,6 @@
 <div class="container">
     <header><h1>Formulario</h1></header>
     <nav></nav>
-</div>
 <section>
 <center><form action="" method=""action=""class="grupo-entradas">
         <div class="mb-3">
@@ -26,10 +25,11 @@
                pattern="{60}"></div>
         <label for="password">Contraseña:</label>
         <input type="password" id="password" name="password" placeholder="ingrese su contraseña" required
-               pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+               pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,40}$">
          <div ailign="center"></div>
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form></center>
+    </div>
 </section>
 <footer>
     <p>Lugar de abajo</p>
