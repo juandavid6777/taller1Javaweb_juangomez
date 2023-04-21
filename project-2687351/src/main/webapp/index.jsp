@@ -12,7 +12,7 @@
     <header><h1>Formulario</h1></header>
     <nav></nav>
 <section>
-<center><form action="" method=""action=""class="grupo-entradas">
+<center><form action="" method=""=""class="grupo-entradas">
         <div class="mb-3">
             <label for="firstName">Nombres:</label>
            <input type="text" id="firstName" name="firstName" placeholder="ingrese su nombre" required autofocus
